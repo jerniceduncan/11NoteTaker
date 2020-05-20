@@ -18,7 +18,7 @@ var getNotes = function() {
 // A function for saving a note to the db
 var saveNote = function(note) {
   return $.ajax({
-    url: "/api/notes",
+    url: "../public/notes.html",
     data: note,
     method: "POST"
   });
@@ -27,7 +27,7 @@ var saveNote = function(note) {
 // A function for deleting a note from the db
 var deleteNote = function(id) {
   return $.ajax({
-    url: "api/notes/" + id,
+    url: "../public/notes.html" + id,
     method: "DELETE"
   });
 };
