@@ -3,7 +3,7 @@ const fs = require("fs");
 const db = require("./db.json");
 
 // This package will be used to generate our unique ids. https://www.npmjs.com/package/uuid
-const uuidv1 = require ('uuid');
+const uuid = require ('uuid');
 
 const readFileAsync = util.promisify(fs.readFile);
 const writeFileAsync = util.promisify(fs.writeFile);
@@ -46,7 +46,7 @@ class Store {
         const newNote = {
             title,
             text,
-            id: uuidv1()
+            id: uuid.v1()
         };
 
         // Get all notes, add the new note, write all the updated notes, return the newNote

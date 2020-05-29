@@ -1,16 +1,21 @@
 {
-  "name": "note-taker",
+  "name": "11-note-taker",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "scripts": {
+ "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+ },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jerniceduncan/11-Note-Taker.git"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.16.4",
-    "uuid": "^8.1.0",
-    "v1": "^1.0.0"
-  }
+
+    "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.1.0"
+ }
 }
