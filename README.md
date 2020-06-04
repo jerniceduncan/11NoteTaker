@@ -8,7 +8,8 @@
 
 ## Screenshot
 
-![image](https://github.com/jerniceduncan/11-Note-Taker/blob/master/public/assets/images/image.png)
+![alt text](https://github.com/jerniceduncan/11-Note-Taker/blob/master/public/assets/images/image.png)
+
 
 ---
 
